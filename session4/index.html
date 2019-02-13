@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <h1>Student Survey</h1>
+</head>
+<form action="http://google.com" method="post">
+    <p> <label for="name">Name*:</label> <input type="text" name="name"> </p>
+    <p> <label for="email">Email*:</label> <input type="text" name="email"> </p>
+    <p> <label for="number">Number*:</label> <input type="number" name="number"> </p>
+
+
+</form>
+
+<p>What year are you in*:
+
+    <select name="yearlist" form="studentsurvey">
+               <option value="select">select</option>
+               <option value="1">1</option>
+                <option value="2">2</option>
+               <option value="4">4</option>
+   </select>
+</p>
+
+
+<label for="electronic_devices"> What device do you use? </label>
+<p><input type="checkbox" name="electronic_devices" value="computer">Computer</p>
+<input type="checkbox" name="electronic_devices" value="ebook">eBook </p>
+<input type="checkbox" name="electronic_devices" value="phone">Phone</p>
+
+<label for="hours">How many hours a day do you spend using electronic devices?</label>
+<p><input type="radio" name="hours" value="1">1</p>
+<input type="radio" name="hours" value="2">2</p>
+<input type="radio" name="hours" value="3">3</p>
+<input type="radio" name="hours" value="3+">3+</p>
+
+<label  for="comments">Any other comments</label>
+<br>
+<textarea name="comment" rows="5" cols="25"> </textarea>
+
+<p><input type="submit" name="Submit" value="Submit"></p>
+
+</html>
