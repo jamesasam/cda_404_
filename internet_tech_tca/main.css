@@ -1,0 +1,65 @@
+#wrapper {
+    width: 80%;
+    margin: auto;
+    background-color: blue
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+#body {
+    font-family: Arial, sans-serif;
+}
+
+#main_section {
+    background-color: green;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+
+}
+
+footer {
+    text-align: center;
+}
+
+#Section1 {
+    float: left;
+    width: 50%;
+}
+
+#Section2 {
+    float: right;
+    width: 50%;
+}
+
+#Section3 {
+    float: left;
+    width: 50%;
+}
+
+#Section4 {
+    float: right;
+    width: 50%;
+}
+
+#ContactUs {
+    text-align: center;
+
+}
+
+#ContactUs input[type="submit"] {
+    border-radius: 4px;
+    border: solid 1px black;
+    font-size: 20px;
+}
