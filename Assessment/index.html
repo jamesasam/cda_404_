@@ -1,59 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>James Samuel Portfolio</title>
-    
-    <link href="style.css" rel="stylesheet" type="text/css" src="main.css"/>
+
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
 </head>
+
 <body>
-    <div id="container">
-        <p id="logo"><a href="#"><img src="images/logo.png" alt="James Samuel logo" /></a></p>
-    
+    <div id="wrapper">
+        <p id="logo"><a href="#"><img src="images/weblogo.png" alt="James Samuel logo" /></a></p>
+
         <ul id="nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a class="active" href="index.html">Home</a>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
         </ul>
-        
+
         <div id="header">
             <h1>Hi! I am James Samuel and welcome to my portfolio website.</h1>
             <h2>I design websites that are simple yet modern.</h2>
-            
-            <p class="btn"><a href="portfolio.html">View my portfolio</a></p>
+
         </div>
-        
+
         <div id="content">
             <h3>About Me</h3>
-            
-            <p>I am currently a student at Southampton Solent University studying Web Design and Development.
-            I enjoy problem solving and creating websites that help solve an issue. 
-            This website is to help me to promote myself.</p>
-            
+
+            <p>I am currently a student at Southampton Solent University studying Web Design and Development. I enjoy problem solving and creating websites that help solve an issue. This website is to help me to promote myself.</p>
+
             <h3>Current Projects</h3>
             <p>My current projects are for my degree and I will soon be doing projects for clients. Below are my most recent projects.</p>
-            
-            <div class="portfolio-example">
-                <a href="#"><img src="images/portfolio-example-1.png" alt="Learn more" /></a>
+
+            <div class="row">
+                <div class="column">
+                    <a href="#"><img src="images/portfolio-example-1.png" alt="Learn more" /></a>
+                </div>
                 <p class="btn"><a href="#">Open</a></p>
-                
-            <div class="portfolio-example">
-                <a href="#"><img src="images/portfolio-example-2.png" alt="Learn more" /></a>
-                <p class="btn"><a href="#">Open</a></p>
+
+                <div class="column">
+                    <a href="#"><img src="images/portfolio-example-2.png" alt="Learn more" /></a>
+                    <p class="btn"><a href="#">Open</a></p>
+                </div>
+
             </div>
-            
-        </div>
-        
-        <div id="footer"></div>
+
+            <div id="footer"></div>
             <p id="back-top"><a href="#">Top of page</a></p>
-            
+
         </div>
-        
+
     </div>
-                
-            
+
+
 </body>
+
 </html>
