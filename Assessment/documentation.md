@@ -1,4 +1,4 @@
-1.1 Documentation
+## 1.1 Documentation
 
 ## 1.1.1 Background 
 
@@ -8,4 +8,9 @@
 
 ## 1.1.2 Wire Frames
 
-## Colour Choices
+## 1.1.3 Colour Choices
+
+## For my website I used a background colour of powder blue as it lets the text stand out but also looks good.
+
+## 1.1.4 Accessibility
+
